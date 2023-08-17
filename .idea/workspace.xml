@@ -4,31 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d7f4888-bd83-4134-9878-253784208c5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginPage/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginPage/configLogin.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestCase001/clickOnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestCase002/clickOnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestCase003/clickOnObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
+    <list default="true" id="2d7f4888-bd83-4134-9878-253784208c5d" name="Changes" comment="#2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/webdriver/objectRepository/login/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/webdriver/objectRepository/login/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/webdriver/objectRepository/login/LoginPageElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/webdriver/objectRepository/login/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/webdriver/testcase/webdriver/tc001/ChangeInformationGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/webdriver/testcase/webdriver/tc001/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/configLogin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/selenium01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPage/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPage/configLogin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/configLogin.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCase001/clickOnObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCase002/clickOnObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestCase003/clickOnObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
         <option value="XML Properties File" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -36,8 +42,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2U0OIHDjZjwS8HR35ztVqP75cNX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,21 +61,56 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path": "/Users/chungnd1/LongHV2_Project_JAVA/Course_Selenium/Selenium",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/chungnd1/LongHV2_Project_JAVA/Course_Selenium/selenium01/src/TestCase003",
+    "last_opened_file_path": "/Users/chungnd1/LongHV2_Project_JAVA/Course_Selenium/Selenium/src/main/java/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/resources" />
       <recent name="$PROJECT_DIR$/src/TestCase003" />
       <recent name="$PROJECT_DIR$/src/TestCase002" />
       <recent name="$PROJECT_DIR$/src/TestCase002/TestCase003" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.webdriver.testcase.webdriver.tc001.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.webdriver.testcase.webdriver.tc001" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.webdriver.testcase.webdriver.tc001.Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +121,22 @@
       <option name="presentableId" value="Default" />
       <updated>1692072951266</updated>
     </task>
+    <task id="LOCAL-00001" summary="#2">
+      <created>1692086003054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692086003054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#2" />
+    <option name="LAST_COMMIT_MESSAGE" value="#2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
